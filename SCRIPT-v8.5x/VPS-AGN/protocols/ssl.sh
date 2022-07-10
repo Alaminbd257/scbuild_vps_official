@@ -50,7 +50,7 @@ echo -e "\033[1;33m $(fun_trans  "Stopped Successfully!")"
 msg -bar
 return 0
 }
-echo -e "\033[1;32m $(fun_trans  "              SSL INSTALLER By VPS-AGN")"
+echo -e "\033[1;32m $(fun_trans  "              SSL INSTALLER By VPS-SCBUILD")"
 msg -bar
 echo -e "\033[1;33m $(fun_trans  "Select an internal redirect port.")"
 echo -e "\033[1;33m $(fun_trans  "A port SSH/DROPBEAR/SQUID/OPENVPN/SSL")"
@@ -195,7 +195,7 @@ clear
 msg -bar
 msg -bar3
 msg -tit
-echo -e "${cor[3]}       MONO AND MULTI SSL INSTALLER By @KhaledAGN"
+echo -e "${cor[3]}       MONO AND MULTI SSL INSTALLER By SCBUILD"
 msg -bar
 echo -e "${cor[1]}            Choose the desired option."
 msg -bar
