@@ -184,7 +184,7 @@ exit
 }
 clear
 msg -bar
-echo -e "${cor[5]}     Payload BruteForce By Mod MEX"
+echo -e "${cor[5]}     Payload BruteForce By Mod Al-Amin"
 msg -bar
 gerar_pay () {
 # Coletando Host
