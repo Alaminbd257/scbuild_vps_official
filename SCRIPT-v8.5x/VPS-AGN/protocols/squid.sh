@@ -88,7 +88,7 @@ fun_squid  () {
   }
 msg -bar
 msg -tit
-msg -ama "         SQUID VPS-AGN INSTALLER By @KhaledAGN"
+msg -ama "         SQUID VPS-AGN INSTALLER By @ALAMINBD17"
 msg -bar
 fun_ip
 echo -ne " $(fun_trans "Confirm your ip")\033[1;91m"; read -p ": " -e -i $IP ip
