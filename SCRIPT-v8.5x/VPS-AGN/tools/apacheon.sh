@@ -15,7 +15,7 @@ fun_ip() {
 IP="$(fun_ip)"
 msg -bar
 msg -tit
-echo -e "\033[1;96m           File Manager FTP VPS•AGN"
+echo -e "\033[1;96m           File Manager FTP VPS•SCBUILD"
 msg -bar
 echo -e "${cor[4]} [1] >${cor[3]} $(fun_trans "Place File Online")"
 echo -e "${cor[4]} [2] >${cor[3]} $(fun_trans "Online File Remover")"
