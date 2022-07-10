@@ -84,7 +84,7 @@ fun_dropbear () {
  }
 msg -bar
 msg -tit
-echo -e "\033[1;32m $(fun_trans "   DROPBEAR INSTALLER | VPS-AGN By @KhaledAGN")"
+echo -e "\033[1;32m $(fun_trans "   DROPBEAR INSTALLER | SCBUILD By @ALAMINBD17")"
 msg -bar
 echo -e "\033[1;31m $(fun_trans "Select Validated Ports in sequential order:\n")\033[1;32m 22 80 81 82 85 90\033[1;37m"
 msg -bar
