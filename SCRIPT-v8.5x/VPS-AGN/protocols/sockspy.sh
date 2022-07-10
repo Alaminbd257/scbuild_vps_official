@@ -39,7 +39,7 @@ chmod +x  /usr/sbin/sckt
 rm -rf $HOME/root/socks
 cd $HOME
 msg="$2"
-[[ $msg = "" ]] && msg="@KhaledAGN"
+[[ $msg = "" ]] && msg="@ALAMINBD17"
 portxz="$1"
 [[ $portxz = "" ]] && portxz="8080"
 screen -dmS sokz scktcheck "$portxz" "$msg" > /dev/null 2>&1
