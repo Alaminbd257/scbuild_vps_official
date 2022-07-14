@@ -1,5 +1,5 @@
 #!/bin/bash
-#25/01/2021 by @KhaledAGN
+#25/01/2021 by @ALAMINBD17
 clear
 clear
 SCPdir="/etc/VPS-AGN"
@@ -156,7 +156,7 @@ clear
 clear
 msg -bar
 msg -tit
-echo -e "\033[1;93m      SSL + PYDIRECT  \033[1;94m By @AleSosaCreaciones "
+echo -e "\033[1;93m      SSL + PYDIRECT  \033[1;94m By MHR Mahedi "
 msg -bar
 echo -e "\033[1;91m You must have port 22 SSH and free (80 y 443)"
 msg -bar
