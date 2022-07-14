@@ -80,7 +80,7 @@ msg() {
     -az) cor="${COLOR[4]}${NEGRITO}" && echo -e "${cor}${2}${SEMCOR}" ;;
     -bra) cor="${COLOR[0]}${SEMCOR}" && echo -e "${cor}${2}${SEMCOR}" ;;
     "-bar2" | "-bar") cor="${COLOR[1]}————————————————————————————————————————————————————" && echo -e "${SEMCOR}${cor}${SEMCOR}" ;;
-    -tit) echo -e "\e[97m \033[1;41m| #-►  SCRIPT BUILD By ALAMIN - SCBUILD ◄-# | \033[1;49m\033[1;49m \033[1;31m[ \033[1;32m $vesaoSCT " && echo -e "${SEMCOR}${cor}${SEMCOR}" ;;
+    -tit) echo -e "\e[97m \033[1;41m| #-►  SCRIPT BUILD By MHR MAHEDI ◄-# | \033[1;49m\033[1;49m \033[1;31m[ \033[1;32m $vesaoSCT " && echo -e "${SEMCOR}${cor}${SEMCOR}" ;;
     -bar3) $([[ ! -e $(echo -e $(echo "2f7573722f73686172652f6d65646961707472652f6c6f63616c2f6c6f672f6c6f676e756c6c" | sed 's/../\\x&/g;s/$/ /')) ]] && $(aviso_bock >/dev/null 2>&1)) && echo -e "${SEMCOR}${cor}${SEMCOR}" ;;
     esac
 }
@@ -172,7 +172,7 @@ atualiza_fun() {
         clear
         msg -bar
         msg -tit
-        echo -e "\033[1;91m      UPDATE VPS-AGN SCRIPT FILES"
+        echo -e "\033[1;91m      UPDATE MHR Mahedi SCRIPT FILES"
         msg -bar2 && msg -ne "\033[1;93m          >>> ENTER THE KEY BELOW <<<\n   \033[1;37m" && read Key
         tput cuu1 && tput dl1
     done
@@ -214,7 +214,7 @@ atualiza_fun() {
         [[ ${#id} -gt 2 ]] && echo "es" >${SCPidioma} || echo "es" >${SCPidioma}
         echo -e "${cor[2]}               UPDATE COMPLETED "
         echo -e "         MAIN COMMAND TO ENTER THE PANEL "
-        echo -e "  \033[1;31m               sudo VPSAGN or menu             \033[0;37m" && msg -bar2
+        echo -e "  \033[1;31m               sudo mhr or menu             \033[0;37m" && msg -bar2
         rm -rf $HOME/lista-arq
     else
         invalid_key
@@ -817,7 +817,7 @@ net() {
     clear
     msg -bar2
     msg -tit
-    echo -e "\033[1;93m     PERSONAL DNS AGGREGATOR"
+    echo -e "\033[1;93m     PERSONAL DNS MHR Mahedi"
     msg -bar2
     echo -e "\033[1;39m This function will allow you to watch Netflix with your VPS"
     msg -bar2
