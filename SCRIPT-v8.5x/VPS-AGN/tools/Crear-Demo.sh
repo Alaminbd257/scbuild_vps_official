@@ -76,7 +76,7 @@
  echo "pass: $pass" >> /etc/VPS-AGN/demo-ssh/$name
  echo "data: ($tmp)Minutes" >> /etc/VPS-AGN/demo-ssh/$name
  msg -bar2
- echo -e "\033[1;93m ¡¡ TEMPORARY USER x MINUTES (VPS-AGN By @KhaledAGN) !!\033[0m"
+ echo -e "\033[1;93m ¡¡ TEMPORARY USER x MINUTES (Script By MHR Mahedi) !!\033[0m"
  msg -bar2
  echo -e "\033[1;36m  >> Server IP: \033[0m$(meu_ip) " 
  echo -e "\033[1;36m  >> User: \033[0m$name"
