@@ -40,7 +40,7 @@ start_menu() {
 	clear
 	msg -bar
 	msg -tit
-	echo -e " TCP Acceleration (BBR/Plus) ${Red_font_prefix}By @lacasitamx${Font_color_suffix}
+	echo -e " TCP Acceleration (BBR/Plus) ${Red_font_prefix}By MHR Mahedi${Font_color_suffix}
  $(msg -bar)
   ${Green_font_prefix}[ 1 ]${Font_color_suffix} Accelerate VPS With BBR ${amarillo}(recommended)${final}
   ${Green_font_prefix}[ 2 ]${Font_color_suffix} Speed ​​up VPS With BBRplus
